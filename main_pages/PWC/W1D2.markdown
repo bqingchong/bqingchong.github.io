@@ -1,0 +1,109 @@
+---
+layout: post
+title:  
+date:   
+categories: jekyll update
+---
+
+<style>
+    button {
+        display: flex;
+        height: 3em;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: #eeeeee4b;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        border: none;
+        background: #fff;
+    }
+
+        button > svg {
+            margin-right: 5px;
+            margin-left: 5px;
+            font-size: 20px;
+            transition: all 0.4s ease-in;
+        }
+
+        button:hover > svg {
+            font-size: 1.2em;
+            transform: translateX(-5px);
+        }
+
+        button:hover {
+            box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+            transform: translateY(-2px);
+        }
+</style>
+
+<style>
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+</style>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+<script src="//i.upmath.me/latex.js"></script>
+
+<a href="/main_pages/Handouts.html" style="color:black;text-decoration:none">
+<button>
+    <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+    <span>Back</span>
+</button>
+</a>
+
+<br />
+<head>
+    <h1>
+        Physics Week Challenge #1 Day 2
+    </h1>
+</head>
+
+<hr />
+
+<br />
+<p style="text-decoration:underline;font-size:larger">
+Week Challenge #1: Circuits
+<p />
+
+<b>Day 2: Ammeters and Voltmeters</b>
+<p>
+        Ammeters and voltmeters are to measure the current and voltage in a circuit. For each problem below, answer \(0\) if it is short-circuited.
+</p>
+<ol>
+    <li>
+            The circuit shown below consists of an ammeter. Given that \(R_1=2\Omega\), \(R_2=3\Omega\), and \(V=10\text{V}\) with internal resistance \(r=1\Omega\), determine the reading of the ammeter.
+    </li>
+    <br />
+        <p align="center">
+            <img class="center" src="/main_pages/PWC/W1D21.png" width="180px" alt="W1D21">
+        </p>
+    <br />
+    <li>
+            The circuit shown below consists of a voltmeter. Given that \(R_1=2\Omega\), \(R_2=3\Omega\), and \(V=10\text{V}\) with internal resistance \(r=1\Omega\), determine the reading of the voltmeter.
+    </li>
+    <br />
+        <p align="center">
+            <img class="center" src="/main_pages/PWC/W1D22.png" width="180px" alt="W1D22" >
+        </p>
+    <br />
+    <li>
+            Four resistors with resistances \(1\Omega\), \(2\Omega\), \(4\Omega\), and \(6\Omega\) are connected. If the reading of an ammeter connected between points A and C is \(I\), and the reading of a voltmeter connected between points \(B\) and \(D\) is \(V\), find the value of \(I/V\).
+    </li>
+    <br>
+        <p align="center">
+            <img class="center" src="/main_pages/PWC/W1D23.png" width="180px" alt="W1D23">
+        </p>
+</ol>
+
+

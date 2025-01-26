@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Handouts
-date:   2024-11-20 14:53:22 +0900
+date:   
 categories: jekyll update
 ---
 
 <style>
-a {
+a:link, a:visited{
   color: black;
   text-decoration: none;
 }
@@ -43,13 +43,13 @@ a:hover {
     <br />
     <h3>Week 1: Circuit Analysis</h3>
     <ul>
-        <li><a asp-controller="PWC" asp-action="W1D1" >Parallel and Series Circuits</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D2" >Ammeters and Voltmeters</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D3" >Kirchhoff's Laws</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D4" >Exploiting Equipotential Points</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D5" >RLC Circuits</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D6" >Star-Delta Transformation</a></li>
-        <li><a asp-controller="PWC" asp-action="W1D7" >Thevenin's Theorem and Norton's Theorem</a></li>
+        <li><a href="/main_pages/PWC/W1D1.html">Parallel and Series Circuits</a></li>
+        <li><a href="/main_pages/PWC/W1D2.html">Ammeters and Voltmeters</a></li>
+        <li><a href="/main_pages/PWC/W1D3.html">Kirchhoff's Laws</a></li>
+        <li><a href="/main_pages/PWC/W1D4.html">Exploiting Equipotential Points</a></li>
+        <li><a href="/main_pages/PWC/W1D5.html">RLC Circuits</a></li>
+        <li><a href="/main_pages/PWC/W1D6.html">Star-Delta Transformation</a></li>
+        <li><a href="/main_pages/PWC/W1D7.html">Thevenin's Theorem and Norton's Theorem</a></li>
     </ul>
     <br />
     <h3>Week 2: ????????</h3>

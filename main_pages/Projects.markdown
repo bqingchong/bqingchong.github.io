@@ -1,9 +1,21 @@
 ---
 layout: post
 title:  Projects
-date:   2024-11-20 14:53:22 +0800
+date:   
 categories: jekyll update
 ---
+
+<style>
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+</style>
+
 <head>
     <br />
     <h2 style="font-family:Verdana">

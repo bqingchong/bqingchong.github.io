@@ -6,7 +6,7 @@ layout: home
 ---
 
 <style>
-a {
+a:link, a:visited{
   color: black;
   text-decoration: none;
 }
@@ -30,21 +30,21 @@ a:hover {
 </p>
 <hr />
 <br />
-<a asp-controller="Home" asp-action="Handouts" style="font-family:Verdana;font-size:large;text-decoration:none" >Handouts and Notes</a>
+<a href="/main_pages/Handouts.html" style="font-family:Verdana;font-size:large" >Handouts and Notes</a>
 <p>
     These are some of my handouts and notes which I've used to train my juniors. You may click the title to obtain the resources. 
 </p>
 <br />
 <hr />
 <br />
-<a asp-controller="Home" style="font-family:Verdana;font-size:large">Articles</a>
+<a href="/main_pages/Articles.html" style="font-family:Verdana;font-size:large">Articles</a>
 <p>
     Explore articles on contest preps and interesting math facts!
 </p>
 <br />
 <hr />
 <br />
-<a asp-controller="Home" asp-action="Projects" style="font-family:Verdana;font-size:large;text-decoration:none">Projects</a>
+<a href="/main_pages/Projects.html" style="font-family:Verdana;font-size:large;text-decoration:none">Projects</a>
 <p>
     Browse throught my recent projects and feel free to contribute!
 </p>
