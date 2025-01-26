@@ -5,6 +5,17 @@
 layout: home
 ---
 
+<style>
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+</style>
+
 <head>
 <h1>
         <span style="color:darkgreen">Ohayo!</span> Welcome to my blog!
@@ -19,21 +30,21 @@ layout: home
 </p>
 <hr />
 <br />
-<a asp-controller="Home" asp-action="Handouts" style="font-family:Verdana;font-size:large;color:black;text-decoration:none" >Handouts and Notes</a>
+<a asp-controller="Home" asp-action="Handouts" style="font-family:Verdana;font-size:large;text-decoration:none" >Handouts and Notes</a>
 <p>
     These are some of my handouts and notes which I've used to train my juniors. You may click the title to obtain the resources. 
 </p>
 <br />
 <hr />
 <br />
-<a asp-controller="Home" asp-action="Articles" style="font-family:Verdana;font-size:large;color:black;text-decoration:none">Articles</a>
+<a asp-controller="Home" style="font-family:Verdana;font-size:large">Articles</a>
 <p>
     Explore articles on contest preps and interesting math facts!
 </p>
 <br />
 <hr />
 <br />
-<a asp-controller="Home" asp-action="Projects" style="font-family:Verdana;font-size:large;color:black;text-decoration:none">Projects</a>
+<a asp-controller="Home" asp-action="Projects" style="font-family:Verdana;font-size:large;text-decoration:none">Projects</a>
 <p>
     Browse throught my recent projects and feel free to contribute!
 </p>
