@@ -48,6 +48,9 @@ a:hover {
   color: orange;
   text-decoration: none;
 }
+a:active {
+    color: red !important;
+}
 </style>
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -73,8 +76,8 @@ a:hover {
 
 <br />
 <p style="text-decoration:underline;font-size:larger">
-Week Challenge #1: Circuits
-<p />
+    Week Challenge #1: Circuits
+</p>
 
 <b>Day 2: Ammeters and Voltmeters</b>
 <p>

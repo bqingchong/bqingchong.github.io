@@ -14,6 +14,9 @@ a:hover {
   color: orange;
   text-decoration: none;
 }
+a:active {
+    color: red !important;
+}
 </style>
 
 <head>

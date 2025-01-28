@@ -14,11 +14,49 @@ a:hover {
   color: orange;
   text-decoration: none;
 }
+a:active {
+    color: red !important;
+}
 </style>
+
+<script>
+  var hello = ['Ohayo!', '你好！', 'Hola!', 'Xin chào!', 'สวัสดี!', 'Bonjour!', 'नमस्ते!', 'こんにちは!', 'Ciao!', 'வணக்கம்!', '안녕하세요!', 'привет!', 'ہیلو!'];
+
+  function swap(){
+    var x = document.getElementById("thello");
+    if (x.innerHTML == 'Ohayo!') {
+      x.innerHTML = '你好！';
+    } else if (x.innerHTML == '你好！') {
+      x.innerHTML = 'Hola!';
+    } else if (x.innerHTML == 'Hola!') {
+      x.innerHTML = 'Xin chào!';
+    } else if (x.innerHTML == 'Xin chào!') {
+      x.innerHTML = 'สวัสดี!';
+    } else if (x.innerHTML == 'สวัสดี!') {
+      x.innerHTML = 'Bonjour!';
+    } else if (x.innerHTML == 'Bonjour!') {
+      x.innerHTML = 'नमस्ते!';
+    } else if (x.innerHTML == 'नमस्ते!') {
+      x.innerHTML = 'こんにちは!';
+    } else if (x.innerHTML == 'こんにちは!') {
+      x.innerHTML = 'Ciao!';
+    } else if (x.innerHTML == 'Ciao!') {
+      x.innerHTML = 'வணக்கம்!';
+    } else if (x.innerHTML == 'வணக்கம்!') {
+      x.innerHTML = '안녕하세요!';
+    } else if (x.innerHTML == '안녕하세요!') {
+      x.innerHTML = 'привет!';
+    } else if (x.innerHTML == 'привет!') {
+      x.innerHTML = 'ہیلو!';
+    } else if (x.innerHTML == 'ہیلو!') {
+      x.innerHTML = 'Ohayo!';
+    }
+  }
+</script>
 
 <head>
 <h1>
-        <span style="color:darkgreen">Ohayo!</span> Welcome to my blog!
+  <span style="color:darkgreen" onmouseover="swap()" id="thello">Ohayo!</span> Welcome to my blog!
 </h1>
 </head>
 
