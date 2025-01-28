@@ -1,0 +1,98 @@
+---
+layout: post
+title:  
+date:   
+categories: jekyll update
+---
+
+<style>
+    button {
+        display: flex;
+        height: 3em;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: #eeeeee4b;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        border: none;
+        background: #fff;
+    }
+
+        button > svg {
+            margin-right: 5px;
+            margin-left: 5px;
+            font-size: 20px;
+            transition: all 0.4s ease-in;
+        }
+
+        button:hover > svg {
+            font-size: 1.2em;
+            transform: translateX(-5px);
+        }
+
+        button:hover {
+            box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+            transform: translateY(-2px);
+        }
+</style>
+
+<style>
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+a:active {
+    color: red !important;
+}
+</style>
+
+<a href="/main_pages/Articles.html" style="color:black;text-decoration:none">
+<button>
+    <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+    <span>Back</span>
+</button>
+</a>
+
+<br />
+<head>
+    <h1>
+        A quick post before problem-solving: Attitudes of learning.
+    </h1>
+    <p style="font-size:small;color:gray">17 July 2024</p>
+</head>
+
+<body>
+<br />
+    <p style="font-size:larger">
+        I think I should make it clear about how things work. This is not just for preparing competitions, the style of learning reflects a person's attitude towards something.
+    </p>
+    <br />
+    <h2 style="text-decoration:underline">Preparing for competitions</h2>
+    <h3>Practice, practice, practice</h3>
+    <p style="font-size:larger">
+        The truth is that there's no shortcut to getting good grades besides practicing. This is much less true not only for competitions as well as other aspects in life.
+    </p>
+    <br />
+    <h3>Learn from your mistakes</h3>
+    <p style="font-size:larger">
+        Always find your mistakes YOURSELF, and learn how to debug and understand solutions. Always ask yourself: what have you missed or what setbacks are you overcoming throughout the process. Is it due to lack of concentration? lack of experience? etc.
+    </p>
+    <br />
+    <br />
+    <h2 style="text-decoration:underline">Learning attitudes</h2>
+    <h3>Be an active learner, do not rely on others.</h3>
+    <p style="font-size:larger">
+        I think the title says it all. You may want to argue that asking others is your best way of learning, but YOU CANNOT RELY ON OTHERS THROUGHOUT YOUR ENTIRE LIFE! Grow up and be independent!
+    </p>
+    <br />
+    <h3>Be conscious of what you're doing.</h3>
+    <p style="font-size:larger">
+        Do not learn for the sake of learning, learn because you like the topic! You have to be very clear of what you are learning. For example, if you're preparing for competitive programming, don't just pick a topic and learn, organize your time instead. For example, it may be ideal to learn graphs and then learn BFS/DFS, than learning graphs for a week, then learn binary search, then sorting, then return to BFS/DFS.
+    </p>

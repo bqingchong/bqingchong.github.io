@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <style>
-a {
+a:visited, a:link{
   color: black;
   text-decoration: none;
 }
@@ -21,7 +21,7 @@ a:active {
 
 <br />
 <head>
-    <a asp-controller="Articles" asp-action="comp" style="font-size:large;color:black;text-decoration:none">
+    <a href="/main_pages/Articles/1-11-24.html">
     <h2>
         What are math competitions? A taxonomy of competitions.
     </h2>
@@ -31,7 +31,7 @@ a:active {
     <br>
     <hr />
     <br>
-    <a asp-controller="Articles" asp-action="att" style="font-size:large;color:black;text-decoration:none">
+    <a href="/main_pages/Articles/17-7-24.html">
     <h2>
         A quick post before problem-solving: Attitudes of learning.
     </h2>
