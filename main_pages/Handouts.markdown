@@ -79,7 +79,10 @@ a:active {
     </h2>
     <br />
     <ul>
-        <li><a href="~/css/Mock CJR.pdf" > Mock Chen Jing Run Cup </a></li>
+        <li><a href="/main_pages/Files/Mock CJR2024.pdf" > Mock CJR Cup 2024 </a></li>
+        <li><a href="/main_pages/Files/Mock_HLG_2024.pdf" > Mock HLG Cup 2024 </a></li>
+        <li><a style="color:black"> Mock CJR Cup 2025 </a></li>
+        <li><a style="color:black"> Mock HLG Cup 2025 </a></li>
     </ul>
     <br />
     <hr />
