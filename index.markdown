@@ -20,8 +20,6 @@ a:active {
 </style>
 
 <script>
-  var hello = ['Ohayo!', '你好！', 'Hola!', 'Xin chào!', 'สวัสดี!', 'Bonjour!', 'नमस्ते!', 'こんにちは!', 'Ciao!', 'வணக்கம்!', '안녕하세요!', 'привет!', 'ہیلو!'];
-
   function swap(){
     var x = document.getElementById("thello");
     if (x.innerHTML == 'Ohayo!') {

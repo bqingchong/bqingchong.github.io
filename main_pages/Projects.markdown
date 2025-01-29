@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <style>
-a {
+a:visited, a:link{
   color: black;
   text-decoration: none;
 }
@@ -27,7 +27,9 @@ a:active {
 </head>
 <br />
 <body>
-    <p>Contents will be released soon.</p>
+    <ul>
+        <li><a href="/main_pages/100P/100Int.html"> 100 Infamous Integrals </a></li>
+    </ul>
 </body>
 
 <hr />
