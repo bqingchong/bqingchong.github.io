@@ -1018,6 +1018,24 @@ a:active {
         li:hover .P100A{
         display: inline;
         }
+        li .P101A{
+        display: none;
+        }
+        li:hover .P101Q{
+        display: none;
+        }
+        li:hover .P101A{
+        display: inline;
+        }
+        li .P102A{
+        display: none;
+        }
+        li:hover .P102Q{
+        display: none;
+        }
+        li:hover .P102A{
+        display: inline;
+        }
 
     </style>
     <li>
@@ -1030,7 +1048,7 @@ a:active {
     </li>
     <li>
         <span class="P3Q"> \[ \int_{0}^{\pi/4} \ln(1+\tan x)\text{d}x \] </span> 
-        <span class="P3A"> \[ -G \] </span>
+        <span class="P3A"> \[ \frac{1}{8}\pi\ln 2 \] </span>
     </li>
     <li>
         <span class="P4Q"> \[ \int\sqrt{\tan x}\text{d}x \] </span> 
@@ -1038,31 +1056,31 @@ a:active {
     </li>
     <li>
         <span class="P24Q"> \[ \int\frac{\sqrt{\tan x}}{\sin 2x}\text{d}x \] </span>
-        <span class="P24A"> [  ] </span>
+        <span class="P24A"> \[ \sqrt{\tan x}+C \] </span>
     </li>
     <li>
         <span class="P5Q"> \[ \int_{0}^{1} \ln(x)\ln(1-x)\text{d}x \] </span> 
-        <span class="P5A"> \[ -G \] </span>
+        <span class="P5A"> \[ 2-\frac{\pi^2}{6} \] </span>
     </li>
     <li>
         <span class="P6Q"> \[ \int_{0}^{1} \ln(x)\ln(1+x)\text{d}x \] </span> 
-        <span class="P6A"> \[ -G \] </span>
-    </li>
-    <li>
-        <span class="P7Q"> \[ \int_{0}^{1} \ln(1+x)\ln(1-x)\text{d}x \] </span> 
-        <span class="P7A"> \[ -G \] </span>
+        <span class="P6A"> \[ 2-\frac{\pi^2}{12}-2\ln 2 \] </span>
     </li>
     <li>
         <span class="P56Q"> \[ \int_{0}^{1} \ln(x)\ln(1+x^2)\text{d}x \] </span>
-        <span class="P56A"> [  ] </span>
+        <span class="P56A"> \[  \] </span>
     </li>
     <li>
         <span class="P8Q"> \[ \int_{0}^{\infty} \frac{\cos ax-\cos bx}{x}\text{d}x \] </span> 
-        <span class="P8A"> \[ -G \] </span>
+        <span class="P8A"> \[ -\ln\frac{a}{b} \] </span>
     </li>
     <li>
         <span class="P9Q"> \[ \int_{0}^{\infty} \frac{\cos ax-\cos bx}{x^2}\text{d}x \] </span> 
         <span class="P9A"> \[ -G \] </span>
+    </li>
+    <li>
+        <span class="P70Q"> \[ \int_{0}^{\infty} \sqrt[a]{\frac{(x+a)^x}{x^{x+a}}}-\sqrt[b]{\frac{(x+b)^x}{x^{x+b}}}	\text{d}x\ \ (a, b&gt;1) \] </span>
+        <span class="P70A"> \[ (e-1)\ln\left(\frac{b}{a}\right) \] </span>
     </li>
     <li>
         <span class="P37Q"> \[ \int_{0}^{1} \frac{x^a-x^b}{\ln x} {d}x \ \ (a, b\geq 0)\] </span>
@@ -1153,6 +1171,10 @@ a:active {
         <span class="P30A"> [  ] </span>
     </li>
     <li>
+        <span class="P69Q"> \[ \int \sin^{-1}\left(16x^5-20x^3+5x\right) \text{d}x \] </span>
+        <span class="P69A"> [  ] </span>
+    </li>
+    <li>
         <span class="P31Q"> \[ \int \tan^{-1}\left(\frac{1}{1-x+x^2}\right) \text{d}x \] </span>
         <span class="P31A"> [  ] </span>
     </li>
@@ -1230,7 +1252,7 @@ a:active {
     </li>
     <li>
         <span class="P53Q"> \[ \int_{0}^{a} \ln\Gamma(x) \text{d}x\] </span>
-        <span class="P53A"> [  ] </span>
+        <span class="P53A"> \[ \frac{a}{2}\ln(2\pi)+\frac{a(1-a)}{2}+a\ln\Gamma(a)-\ln G(a+1) \] </span>
     </li>
     <li>
         <span class="P54Q"> \[ \int_{0}^{1} \sin(\pi x)\ln\Gamma(x) \text{d}x\] </span>
@@ -1272,152 +1294,171 @@ a:active {
         <span class="P64Q"> \[ \int_{a}^{b} \frac{\tan^{-1}\left(\frac{x}{a}\right)+\tan^{-1}\left(\frac{x}{b}\right)}{x} \text{d}x\ \ (a, b&gt;0)\] </span>
         <span class="P64A"> [  ] </span>
     </li>
-    <!--
     <li>
-        <span class="P65"[ int 	ext{d}x ] </span>
-        <span class="P65"> [  ] </span>
+        <span class="P66Q"> \[ \int_{0}^{2\pi} e^{a\cos\theta}\cos(a\sin\theta)\text{d}\theta \] </span>
+        <span class="P66A"> [  ] </span>
     </li>
     <li>
-        <span class="P66"[ int 	ext{d}x ] </span>
-        <span class="P66"> [  ] </span>
+        <span class="P65Q"> \[ \int_{0}^{\infty}\frac{\cos ax}{x^2+b^2}\text{d}x \] </span>
+        <span class="P65A"> \[ \frac{\pi}{2be^{ab}} \] </span>
     </li>
     <li>
-        <span class="P67"[ int 	ext{d}x ] </span>
-        <span class="P67"> [  ] </span>
+        <span class="P67Q"> \[ \int_{0}^{\infty}\frac{\cos \ln x}{(1+x)^2}\text{d}x \] </span>
+        <span class="P67A"> [  ] </span>
     </li>
     <li>
-        <span class="P68"[ int 	ext{d}x ] </span>
-        <span class="P68"> [  ] </span>
+        <span class="P68Q"> \[ \int_{0}^{\infty}\cos(x^2)\text{d}x \] </span>
+        <span class="P68A"> \[ \sqrt{\frac{\pi}{8}} \] </span>
     </li>
     <li>
-        <span class="P69"[ int 	ext{d}x ] </span>
-        <span class="P69"> [  ] </span>
+        <span class="P71Q"> \[ \int_{2}^{4} \sum_{n=0}^{\infty}\frac{2^n}{x^{2^n}+1} \text{d}x \] </span>
+        <span class="P71A"> [  ] </span>
     </li>
     <li>
-        <span class="P70"[ int 	ext{d}x ] </span>
-        <span class="P70"> [  ] </span>
+        <span class="P72Q"> \[ \int_{-1}^{1} \prod_{n=0}^{\infty}\left(1-x^{2^n}+x^{2^{n+1}}\right) \text{d}x \] </span>
+        <span class="P72A"> [  ] </span>
     </li>
     <li>
-        <span class="P71"[ int 	ext{d}x ] </span>
-        <span class="P71"> [  ] </span>
+        <span class="P73Q"> \[ \lim_{n\rightarrow\infty}\int_{0}^{1} \frac{\sum_{k=1}^{n} k^x}{n^{x+1}} \text{d}x \] </span>
+        <span class="P73A"> [  ] </span>
     </li>
     <li>
-        <span class="P72"[ int 	ext{d}x ] </span>
-        <span class="P72"> [  ] </span>
+        <span class="P74Q"> \[ \int_{0}^{\infty}\prod_{n=1}^{\infty}\left(1-\frac{x^n}{a_{n+1}}\right)^x \text{d}x\ \ \text{where } a_1=1 \text{ and } a_{n+1}=x^n+na_n\] </span>
+        <span class="P74A"> [  ] </span>
     </li>
     <li>
-        <span class="P73"[ int 	ext{d}x ] </span>
-        <span class="P73"> [  ] </span>
+        <span class="P75Q"> \[ \int_0^1 \sum_{n=1}^{\infty}\frac{x^{n-1}}{n^2}\ln(1-x) \text{d}x \] </span>
+        <span class="P75A"> [  ] </span>
     </li>
     <li>
-        <span class="P74"[ int 	ext{d}x ] </span>
-        <span class="P74"> [  ] </span>
+        <span class="P76Q"> \[ \int_0^{\frac{\pi}{4}} x\prod_{n=1}^{\infty}\frac{1}{1-\tan^2\left(\frac{x}{2^n}\right)} \text{d}x \] </span>
+        <span class="P76A"> [  ] </span>
     </li>
     <li>
-        <span class="P75"[ int 	ext{d}x ] </span>
-        <span class="P75"> [  ] </span>
+        <span class="P81Q"> \[ \int_0^{\frac{\pi}{2}} x\prod_{n=1}^{\infty}\cos\left(\frac{x}{2^n}\right) \text{d}x \] </span>
+        <span class="P81A"> [  ] </span>
     </li>
     <li>
-        <span class="P76"[ int 	ext{d}x ] </span>
-        <span class="P76"> [  ] </span>
+        <span class="P80Q"> \[ \int_0^{\frac{1}{4}}\sum_{n=0}^{\infty}\binom{2n}{n}x^n \text{d}x \] </span>
+        <span class="P80A"> [  ] </span>
     </li>
     <li>
-        <span class="P77"[ int 	ext{d}x ] </span>
-        <span class="P77"> [  ] </span>
+        <span class="P98Q"> \[ \int_0^{\frac{\pi}{8}}\sum_{n=1}^{\infty}\sin\left(\frac{x}{2^{n-1}}\right)\sin\left(\frac{3x}{2^{n-1}}\right) \text{d}x \] </span>
+        <span class="P98A"> [  ] </span>
     </li>
     <li>
-        <span class="P78"[ int 	ext{d}x ] </span>
-        <span class="P78"> [  ] </span>
+        <span class="P77Q"> \[ \int \sin^n(x)\text{d}x\ \ (n\in\mathbb{N}) \] </span>
+        <span class="P77A"> [  ] </span>
     </li>
     <li>
-        <span class="P79"[ int 	ext{d}x ] </span>
-        <span class="P79"> [  ] </span>
+        <span class="P78Q"> \[ \int \ln^n(x)\text{d}x\ \ (n\in\mathbb{N}) \] </span>
+        <span class="P78A"> [  ] </span>
     </li>
     <li>
-        <span class="P80"[ int 	ext{d}x ] </span>
-        <span class="P80"> [  ] </span>
+        <span class="P79Q"> \[ \int x^ne^x\text{d}x\ \ (n\in\mathbb{N}) \] </span>
+        <span class="P79A"> [  ] </span>
     </li>
     <li>
-        <span class="P81"[ int 	ext{d}x ] </span>
-        <span class="P81"> [  ] </span>
+        <span class="P82Q"> \[ \int_{0}^{\pi}\int_{0}^{2\pi} (\sin y)e^{(\sin y)(\cos x-\sin x)}\text{d}x\text{d}y \] </span>
+        <span class="P82A"> [  ] </span>
     </li>
     <li>
-        <span class="P82"[ int 	ext{d}x ] </span>
-        <span class="P82"> [  ] </span>
+        <span class="P83Q"> \[ \int_{0}^{1} \int_{0}^{y} \frac{\ln(1-x)}{x}\text{d}x\text{d}y \] </span>
+        <span class="P83A"> [  ] </span>
     </li>
     <li>
-        <span class="P83"[ int 	ext{d}x ] </span>
-        <span class="P83"> [  ] </span>
+        <span class="P84Q"> \[I_{n}\text{ where } I_{k}=\int_0^{x_{k}}I_{k-1} \text{d}x_{k-1} \text{ and } I_1=\int_{0}^{x_1}\sin t\text{d}t\] </span>
+        <span class="P84A"> [  ] </span>
     </li>
     <li>
-        <span class="P84"[ int 	ext{d}x ] </span>
-        <span class="P84"> [  ] </span>
+        <span class="P85Q"> \[ \int_0^1 \int_0^1 \int_0^1 \ln(x+xy+xyz) \text{d}x\text{d}y\text{d}z \] </span>
+        <span class="P85A"> [  ] </span>
     </li>
     <li>
-        <span class="P85"[ int 	ext{d}x ] </span>
-        <span class="P85"> [  ] </span>
+        <span class="P86Q"> \[ \lim_{N\rightarrow\infty}\int_{(0, 1)^{N}} x_1+x_1x_2^2+x_1x_2^2x_3^3+\dots+x_1x_2^2x_3^3\dots x_N^N\ \text{d}x_1\text{d}x_2\dots \text{d}x_N \] </span>
+        <span class="P86A"> [  ] </span>
     </li>
     <li>
-        <span class="P86"[ int 	ext{d}x ] </span>
-        <span class="P86"> [  ] </span>
+        <span class="P87Q"> \[ \int_{0}^{\infty} \frac{1}{(e^x+1)(e^x+e^y)(e^y+1)}\text{d}x \text{d}y \] </span>
+        <span class="P87A"> [  ] </span>
     </li>
     <li>
-        <span class="P87"[ int 	ext{d}x ] </span>
-        <span class="P87"> [  ] </span>
+        <span class="P88Q"> \[ \int_{0}^{1}\int_{0}^{1} \frac{x\ln x \ln^2 y}{1-xy} \text{d}x \text{d}y \] </span>
+        <span class="P88A"> [  ] </span>
     </li>
     <li>
-        <span class="P88"[ int 	ext{d}x ] </span>
-        <span class="P88"> [  ] </span>
+        <span class="P89Q"> \[ \int_0^{\frac{\pi}{2}}\int_0^{\frac{\pi}{2}} \frac{\sin x+\sin y}{\cos x+\cos y} \text{d}x\text{d}y \] </span>
+        <span class="P89A"> [  ] </span>
     </li>
     <li>
-        <span class="P89"[ int 	ext{d}x ] </span>
-        <span class="P89"> [  ] </span>
+        <span class="P90Q"> \[ \int_{1}^{3}\int_{1}^{3}\int_{1}^{3}\int_{1}^{3}\int_{1}^{3} \frac{x_1+x_2+x_3+x_4-x_5}{x_1+x_2+x_3+x_4+x_5} \text{d}x_1 \text{d}x_2 \text{d}x_3 \text{d}x_4 \text{d}x_5 \] </span>
+        <span class="P90A"> [  ] </span>
     </li>
     <li>
-        <span class="P90"[ int 	ext{d}x ] </span>
-        <span class="P90"> [  ] </span>
+        <span class="P91Q"> \[ \int_{0}^{\frac{\pi}{2}}\frac{\{\tan x\}}{\tan x} \text{d}x \] </span>
+        <span class="P91A"> [  ] </span>
     </li>
     <li>
-        <span class="P91"[ int 	ext{d}x ] </span>
-        <span class="P91"> [  ] </span>
+        <span class="P92Q"> \[ \int_{0}^{1} \max_{n\in\mathbb{N}}\left(\frac{\lfloor 2^{n+1}x\rfloor}{2^n}-\frac{\lfloor 2^{n}x\rfloor}{2^{n-1}}\right) \text{d}x \] </span>
+        <span class="P92A"> [  ] </span>
     </li>
     <li>
-        <span class="P92"[ int 	ext{d}x ] </span>
-        <span class="P92"> [  ] </span>
+        <span class="P93Q"> \[ \int_{0}^{1} x\left\{\frac{1}{x}\right\}\left\lfloor\frac{1}{x}\right\rfloor\text{d}x \] </span>
+        <span class="P93A"> [  ] </span>
     </li>
     <li>
-        <span class="P93"[ int 	ext{d}x ] </span>
-        <span class="P93"> [  ] </span>
+        <span class="P94Q"> \[ \int_{0}^{1} \left\lfloor\sin\frac{1}{x}\right\rfloor\text{d}x \] </span>
+        <span class="P94A"> [  ] </span>
     </li>
     <li>
-        <span class="P94"[ int 	ext{d}x ] </span>
-        <span class="P94"> [  ] </span>
+        <span class="P95Q"> \[ \int_{0}^{\infty} \left\lfloor\log_{2025}\left\lfloor\frac{\lceil x\rceil}{x}\right\rfloor\right\rfloor\text{d}x \] </span>
+        <span class="P95A"> [  ] </span>
     </li>
     <li>
-        <span class="P95"[ int 	ext{d}x ] </span>
-        <span class="P95"> [  ] </span>
+        <span class="P96Q"> \[ \int_{0}^{1} \max_{n\in\mathbb{N}} \sin\frac{x}{2^n}\text{d}x \] </span>
+        <span class="P96A"> \[ 1 \] </span>
     </li>
     <li>
-        <span class="P96"[ int 	ext{d}x ] </span>
-        <span class="P96"> [  ] </span>
+        <span class="P97Q"> \[ \lim_{n\rightarrow\infty}\frac{1}{n^2}\int_0^{n^2}\sqrt{\frac{n^2-\lfloor\sqrt{x}\rfloor^2}{x}} \text{d}x \] </span>
+        <span class="P97A"> [  ] </span>
+    </li>
+
+    <li>
+        <span class="P99Q"> \[ \int_0^{\infty}\frac{1}{\sinh(2^{\lfloor x\rfloor}(\{x\}+1))} \text{d}x \] </span>
+        <span class="P99A"> [  ] </span>
     </li>
     <li>
-        <span class="P97"[ int 	ext{d}x ] </span>
-        <span class="P97"> [  ] </span>
+        <span class="P100Q"> \[ \int \begin{vmatrix}
+        x+1 &amp; x+2 &amp; x+3 \\
+        x+8 &amp; x+9 &amp; x+4 \\
+        x+7 &amp; x+6 &amp; x+5
+        \end{vmatrix}
+        \text{d}x \] </span>
+        <span class="P100A"> [  ] </span>
     </li>
     <li>
-        <span class="P98"[ int 	ext{d}x ] </span>
-        <span class="P98"> [  ] </span>
+        <span class="P101Q"> \[ \int_0^1 \begin{vmatrix}
+        1 &amp; 0 &amp; \dots &amp; 0 &amp; x \\
+        0 &amp; 0 &amp; \dots &amp; 0 &amp; 0 \\
+        \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots \\
+        0 &amp; 0 &amp; \dots &amp; 1 &amp; 0 \\
+        x &amp; 0 &amp; \dots &amp; 0 &amp; 1 
+        \end{vmatrix}
+        \text{d}x\ \ \text{ where the matrix has dimensions }2026\times 2026 \] </span>
+        <span class="P100A"> [  ] </span>
     </li>
     <li>
-        <span class="P99"[ int 	ext{d}x ] </span>
-        <span class="P99"> [  ] </span>
+        <span class="P102Q"> \[ \int \begin{vmatrix}
+        x &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\
+        1 &amp; x &amp; 1 &amp; 0 &amp; 0 \\
+        0 &amp; 1 &amp; x &amp; 1 &amp; 0 \\
+        0 &amp; 0 &amp; 1 &amp; x &amp; 1 \\
+        0 &amp; 0 &amp; 0 &amp; 1 &amp; x 
+        \end{vmatrix}
+        \text{d}x \] </span>
+        <span class="P102A"> [  ] </span>
     </li>
-    <li>
-        <span class="P100"[ int 	ext{d}x ] </span>
-        <span class="P100"> [  ] </span>
-    </li>
-    -->
+
 </ol>
 
   </div><a class="u-url" href="/main_pages/100P/100Int.html" hidden></a>
