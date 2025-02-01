@@ -1010,7 +1010,7 @@ a:active {
     </li>
     <li>
         <span class="P4Q"> \[ \int\sqrt{\tan x}\text{d}x \] </span> 
-        <span class="P4A"> \[ -G \] </span>
+        <span class="P4A"> \[ \frac{\sqrt{2}}{4}\left(\ln\left|\frac{\tan x-\sqrt{2\tan x}+1}{\tan x+\sqrt{2\tan x}+1}\right|+2\tan^{-1}\left(\sqrt{2\tan x}-1\right)+2\tan^{-1}\left(\sqrt{2\tan x}+1\right)\right)+C \] </span>
     </li>
     <li>
         <span class="P24Q"> \[ \int\frac{\sqrt{\tan x}}{\sin 2x}\text{d}x \] </span>
@@ -1034,7 +1034,7 @@ a:active {
     </li>
     <li>
         <span class="P9Q"> \[ \int_{0}^{\infty} \frac{\cos ax-\cos bx}{x^2}\text{d}x \] </span> 
-        <span class="P9A"> \[ -G \] </span>
+        <span class="P9A"> \[  \] </span>
     </li>
     <li>
         <span class="P70Q"> \[ \int_{0}^{\infty} \sqrt[a]{\frac{(x+a)^x}{x^{x+a}}}-\sqrt[b]{\frac{(x+b)^x}{x^{x+b}}}	\text{d}x\ \ (a, b>1) \] </span>
@@ -1046,11 +1046,11 @@ a:active {
     </li>
     <li>
         <span class="P10Q"> \[ \int_{0}^{\pi} \ln(a+b\cos x)\text{d}x\ \ (a, b>0) \] </span> 
-        <span class="P10A"> \[ -G \] </span>
+        <span class="P10A"> \[  \] </span>
     </li>
     <li>
         <span class="P11Q"> \[ \int_{0}^{\pi}\ln(a\sin x+b\cos x)\text{d}x\ \ (a, b>0) \] </span> 
-        <span class="P11A"> \[ -G \] </span>
+        <span class="P11A"> \[  \] </span>
     </li>
     <li>
         <span class="P33Q"> \[ \int_{0}^{\frac{\pi}{2}}\ln(a\sin^2 x+b\cos^2 x)\text{d}x\ \ (a, b>0) \] </span>
@@ -1058,7 +1058,7 @@ a:active {
     </li>
     <li>
         <span class="P12Q"> \[ \int_{0}^{\infty} \frac{1}{(x+\frac{1}{x})^2}{d}x \] </span>
-        <span class="P12A"> \[ G \] </span>
+        <span class="P12A"> \[  \] </span>
     </li>
     <li>
         <span class="P13Q"> \[ \int_{0}^{\infty} \frac{1}{(x^2+\frac{1}{x^2})^2}{d}x \] </span>
@@ -1090,7 +1090,7 @@ a:active {
     </li>
     <li>
         <span class="P20Q"> \[ \int \frac{1}{e^x+1}{d}x \] </span>
-        <span class="P20A"> [  ] </span>
+        <span class="P20A"> \[ -\ln(1+e^{-x}) + C \] </span>
     </li>
     <li>
         <span class="P21Q"> \[ \int \frac{1}{\sin x+1}{d}x \] </span>
@@ -1110,23 +1110,23 @@ a:active {
     </li>
     <li>
         <span class="P26Q"> \[ \int_{0}^{\infty} \frac{\sin x}{x}\text{d}x \] </span>
-        <span class="P26A"> [  ] </span>
+        <span class="P26A"> \[ \frac{\pi}{2} \] </span>
     </li>
     <li>
         <span class="P28Q"> \[ \int_{0}^{\infty} \frac{\sin x}{x^n}\text{d}x\ \ (0<n<2)\] </span>
         <span class="P28A"> [  ] </span>
     </li>
     <li>
-        <span class="P29Q"> \[ \int_{0}^{\infty} \frac{\tan x}{x}\text{d}x \] </span>
-        <span class="P29A"> [  ] </span>
+        <span class="P29Q"> \[ \int_{0}^{\infty} \frac{\sin^3 x}{x}\text{d}x \] </span>
+        <span class="P29A"> \[ \frac{\pi}{4} \] </span>
     </li>
     <li>
-        <span class="P27Q"> \[ \int_{0}^{1} \frac{x}{\sin x}\text{d}x \] </span>
-        <span class="P27A"> [  ] </span>
+        <span class="P27Q"> \[ \int_{0}^{\frac{\pi}{2}} \frac{x}{\sin x}\text{d}x \] </span>
+        <span class="P27A"> \[ 2G \] </span>
     </li>
     <li>
-        <span class="P30Q"> \[ \int \sqrt{(\sin ax+b\sin((a+1)x)+\sin((a+2)x))^2+(\cos ax+b\cos((a+1)x)+\cos((a+2)x))^2} \text{d}x \] </span>
-        <span class="P30A"> [  ] </span>
+        <span class="P30Q"> \[ \int \sqrt{(\sin ax+b\sin((a+1)x)+\sin((a+2)x))^2+(\cos ax+b\cos((a+1)x)+\cos((a+2)x))^2} \text{d}x\ \ (a, b>1) \] </span>
+        <span class="P30A"> \[ bx+2\sin x+C \] </span>
     </li>
     <li>
         <span class="P69Q"> \[ \int \sin^{-1}\left(16x^5-20x^3+5x\right) \text{d}x \] </span>
@@ -1142,11 +1142,11 @@ a:active {
     </li>
     <li>
         <span class="P34Q"> \[ \int \frac{1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\dots+\frac{x^{n-1}}{(n-1)!}}{1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\dots+\frac{x^n}{n!}} \text{d}x \] </span>
-        <span class="P34A"> [  ] </span>
+        <span class="P34A"> \[ \ln\left|1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\dots+\frac{x^n}{n!}\right| + C \] </span>
     </li>
     <li>
         <span class="P35Q"> \[ \int  \frac{a^x}{a^x + b^x} \text{d}x\ \ (a, b>0) \] </span>
-        <span class="P35A"> [  ] </span>
+        <span class="P35A"> \[ \frac{\displaystyle\ln\left(\left(\frac{a}{b}\right)^x+1\right)}{\displaystyle\ln\frac{a}{b}} + C\] </span>
     </li>
     <li>
         <span class="P38Q"> \[ \int_{a}^{b} f(x)\int_{0}^{x}f(t)\text{d}t \text{d}x \] </span>
@@ -1162,7 +1162,7 @@ a:active {
     </li>
     <li>
         <span class="P41Q"> \[ \int_{a}^{b}\sqrt{r^2-x^2}\text{d}x\ \ (-r\leq a\leq 0\leq b\leq r) \] </span>
-        <span class="P41A"> [  ] </span>
+        <span class="P41A"> \[ \frac{1}{2}\left(\pi r^2-r^2\cos^{-1}\frac{-a}{r}-r^2\cos^{-1}\frac{b}{r}+(-a)\sqrt{r^2-a^2}+b\sqrt{r^2-b^2}\right) \] </span>
     </li>
     <li>
         <span class="P42Q"> \[ \int_{0}^{\infty} \frac{\ln(1+x^2)}{1+x^2} \text{d}x \] </span>
@@ -1250,7 +1250,7 @@ a:active {
     </li>
     <li>
         <span class="P64Q"> \[ \int_{a}^{b} \frac{\tan^{-1}\left(\frac{x}{a}\right)+\tan^{-1}\left(\frac{x}{b}\right)}{x} \text{d}x\ \ (a, b>0)\] </span>
-        <span class="P64A"> [  ] </span>
+        <span class="P64A"> \[ \frac{\pi}{2}\ln\frac{b}{a} \] </span>
     </li>
     <li>
         <span class="P66Q"> \[ \int_{0}^{2\pi} e^{a\cos\theta}\cos(a\sin\theta)\text{d}\theta \] </span>
@@ -1270,11 +1270,11 @@ a:active {
     </li>
     <li>
         <span class="P71Q"> \[ \int_{2}^{4} \sum_{n=0}^{\infty}\frac{2^n}{x^{2^n}+1} \text{d}x \] </span>
-        <span class="P71A"> [  ] </span>
+        <span class="P71A"> \[ \ln 3 \] </span>
     </li>
     <li>
         <span class="P72Q"> \[ \int_{-1}^{1} \prod_{n=0}^{\infty}\left(1-x^{2^n}+x^{2^{n+1}}\right) \text{d}x \] </span>
-        <span class="P72A"> [  ] </span>
+        <span class="P72A"> \[ \frac{\pi}{\sqrt{3}} \] </span>
     </li>
     <li>
         <span class="P73Q"> \[ \lim_{n\rightarrow\infty}\int_{0}^{1} \frac{\sum_{k=1}^{n} k^x}{n^{x+1}} \text{d}x \] </span>
@@ -1282,7 +1282,7 @@ a:active {
     </li>
     <li>
         <span class="P74Q"> \[ \int_{0}^{\infty}\prod_{n=1}^{\infty}\left(1-\frac{x^n}{a_{n+1}}\right)^x \text{d}x\ \ \text{where } a_1=1 \text{ and } a_{n+1}=x^n+na_n\] </span>
-        <span class="P74A"> [  ] </span>
+        <span class="P74A"> \[ \frac{\sqrt{\pi}}{2} \] </span>
     </li>
     <li>
         <span class="P75Q"> \[ \int_0^1 \sum_{n=1}^{\infty}\frac{x^{n-1}}{n^2}\ln(1-x) \text{d}x \] </span>
@@ -1294,7 +1294,7 @@ a:active {
     </li>
     <li>
         <span class="P81Q"> \[ \int_0^{\frac{\pi}{2}} x\prod_{n=1}^{\infty}\cos\left(\frac{x}{2^n}\right) \text{d}x \] </span>
-        <span class="P81A"> [  ] </span>
+        <span class="P81A"> \[ 1 \] </span>
     </li>
     <li>
         <span class="P80Q"> \[ \int_0^{\frac{1}{4}}\sum_{n=0}^{\infty}\binom{2n}{n}x^n \text{d}x \] </span>
@@ -1392,18 +1392,18 @@ a:active {
         x+7 & x+6 & x+5
         \end{vmatrix}
         \text{d}x \] </span>
-        <span class="P100A"> [  ] </span>
+        <span class="P100A"> \[ -6x^2-48x+C \] </span>
     </li>
     <li>
         <span class="P101Q"> \[ \int_0^1 \begin{vmatrix}
         1 & 0 & \dots & 0 & x \\
-        0 & 0 & \dots & 0 & 0 \\
+        0 & 1 & \dots & 0 & 0 \\
         \vdots & \vdots & \ddots & \vdots & \vdots \\
         0 & 0 & \dots & 1 & 0 \\
         x & 0 & \dots & 0 & 1 
         \end{vmatrix}
         \text{d}x\ \ \text{ where the matrix has dimensions }2026\times 2026 \] </span>
-        <span class="P100A"> [  ] </span>
+        <span class="P100A"> \[ \frac{2}{3} \] </span>
     </li>
     <li>
         <span class="P102Q"> \[ \int \begin{vmatrix}
@@ -1414,7 +1414,7 @@ a:active {
         0 & 0 & 0 & 1 & x 
         \end{vmatrix}
         \text{d}x \] </span>
-        <span class="P102A"> [  ] </span>
+        <span class="P102A"> \[ \frac{1}{6}x^6-x^4+\frac{3}{2}x^2+C \] </span>
     </li>
 
 </ol>
